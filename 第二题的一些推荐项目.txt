@@ -1,0 +1,18 @@
+前言：之前给的text-to-table示例项目（https://github.com/shirley-wu/text_to_table），基于transformer架构，需要运行在linux环境上，对电脑显存配置要求较高，推荐使用Google colab来进行训练。由于从text直接生成table的模型普遍基于tansformer，模型大并且参数多对大家来说有一定难度。
+因此可以允许大家将其简化为命名实体识别任务。推荐以下的几个简单的命名实体识别（Named Entity Recognition，NER）项目，你可以使用rotowire数据集对该模型进行训练，识别出一场足球比赛里面的相关信息。
+推荐项目仅供参考，它们对于该大作业题目的效果并不一定理想（因为足球比赛文本处理中还涉及到处理文本中的数字），你需要对其进行改善，你可以自己另外寻找并实践合适的模型。
+
+1.BiLSTM-CRF模型
+https://github.com/Agwave/PDF-Resume-Information-Extraction
+
+2.BERT+CNN模型
+https://github.com/Wangpeiyi9979/InformationExtractionDemo
+
+3.BERT-BiLSTM-CRF模型
+https://github.com/macanv/BERT-BiLSTM-CRF-NER
+
+4.NeuroNER模型
+https://github.com/Franck-Dernoncourt/NeuroNER
+
+5.LM-LSTM-CRF模型
+https://github.com/LiyuanLucasLiu/LM-LSTM-CRF
